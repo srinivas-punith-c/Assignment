@@ -19,3 +19,236 @@ a {
 	color:white;
 	background-color:#0269c2;
 }
+.left.carousel-control > img {
+  margin-top: 198px;
+}
+.right.carousel-control > img {
+  margin-top: 198px;
+}
+
+.we-do-section {
+  padding-bottom: 70px;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.sec-head-container {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.sec-head-container .sec-head-style::after {
+  background-color: #1fb5ac;
+  content: "";
+  height: 140px;
+  left: -200%;
+  margin-left: -15px;
+  position: absolute;
+  top: 0;
+  width: 200%;
+}
+.section-title {
+  -webkit-text-stroke: 0.3px;
+  color: #1a1a1a;
+  float: left;
+  font-size:1em;
+  font-weight: 900;
+  line-height: 0.9em;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  text-transform: uppercase;
+  width: 300px;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.section-title span {
+  color: #1fb5ac;
+}
+.section-description {
+  -webkit-text-stroke: 0.2px;
+  color: #404040;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0 113px 43px 113px;
+  padding-top: 35px;
+}
+.service-container {
+  margin: 0;
+  padding: 0;
+}
+.service-container li::before {
+  border-color: #ffffff #ffffff #15a9a0 #15a9a0;
+  border-style: solid;
+  border-width: 20px;
+  content: "";
+  height: 40px;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  width: 40px;
+}
+.service-container li:nth-child(2n+1) {
+  background-color: #f7f7f7;
+}
+.service-container li:hover::before {
+  right: 0;
+  top: 0;
+}
+.service-container li:hover {
+  background-color: #1fb5ac;
+}
+.service-container li {
+  list-style: outside none none;
+  overflow: hidden;
+  padding: 35px 15px;
+  position: relative;
+  text-align: center;
+}
+.service-container li, .service-container li::before, .service-container li .service-icon, .service-container li .item-title, .service-container li .item-description {
+  transition: all 0.25s ease 0s;
+}
+.service-container li:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+.service-container li:hover {
+  background-color: #3F2C78;
+}
+.service-container li, .service-container li::before, .service-container li .service-icon, .service-container li .item-title, .service-container li .item-description {
+  transition: all 0.25s ease 0s;
+}
+.service-container li .item-title {
+  font-size: 1.15em;
+  font-weight: 800;
+  padding-top: 6px;
+}
+.service-container li:hover .service-icon, .service-container li:hover .item-title, .service-container li:hover .item-description {
+  color: #ffffff;
+}
+.section-description > h2 {
+  color: #1D6A84;
+}
+.steps {
+  list-style: outside none none;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 700px;
+}
+.timeline-border {
+  border-left: 1px solid #dadada;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+}
+.step .icon-border::before {
+  border-bottom: 1px solid #dadada;
+  content: "";
+  display: block;
+  left: -65px;
+  position: absolute;
+  top: 35px;
+  width: 65px;
+}
+.icon-border i::before {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.step h5 {
+  color: #31a393;
+  font-weight: 600;
+}
+.upper {
+  text-transform: uppercase;
+}
+.step.even {
+  float: left;
+  padding: 10px 405px 0 0;
+  text-align: right;
+}
+.step {
+  float: right;
+  margin: 0 0 10px;
+  padding: 10px 0 0 405px;
+  position: relative;
+  text-align: left;
+  width: 700px;
+}
+.workflow_item div {
+  border-radius: 50%;
+  height:70px;
+  margin: 0 auto;
+  padding-top: 32px;
+  text-align: center;
+  width:70px;
+  border:2px solid #5ac499;
+}
+.workflow_item div:hover {
+  border-radius: 50%;
+  height:70px;
+  margin: 0 auto;
+  padding-top: 32px;
+  text-align: center;
+  width:70px;
+  background-color:#5ac499;
+}
+.step.workflow_item > div {
+  margin-right:210px;
+}
+.step.workflow_item img {
+  margin-top: -22px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #616161;
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.step.even.workflow_item > div {
+  margin-left: 210px;
+}
+.line {
+  border-bottom: 1px solid #dadada;
+  height: 47px;
+  margin-left: 351px;
+  position: absolute;
+  width: 70px;
+}
+.line2 {
+  border-bottom: 1px solid #dadada;
+  height: 47px;
+  margin-left: 351px;
+  margin-top: 329px;
+  position: absolute;
+  width: 70px;
+}
+.line1 {
+  border-bottom: 1px solid #dadada;
+  height: 47px;
+  margin-left: 281px;
+  margin-top: 153px;
+  position: absolute;
+  width: 70px;
+}
+.line3 {
+  border-bottom: 1px solid #dadada;
+  height: 47px;
+  margin-left: 280px;
+  margin-top: 504px;
+  position: absolute;
+  width: 70px;
+}
+.line4 {
+  border-bottom: 1px solid #dadada;
+  height: 39px;
+  margin-left: 351px;
+  margin-top: 691px;
+  position: absolute;
+  width: 70px;
+}

@@ -11,6 +11,8 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -272,6 +274,87 @@ There are 10 major tracks from which to choose. Of course you could mix &lsquo;n
       </div>
     </div>
   </div> 
+  <div class="col-md-12">
+					<div class="box_style_1 clearfix" style="padding-bottom:50px">
+						<h4>Organizer(s) <i class="icon-building pull-right hidden-xs"></i></h4>						<div class="row">
+							<div class="col-md-3">
+								<a href="/company/profile/Banyan Hack/">
+									<img style="max-height:80px; max-width: 200px;" class="pull-left hack" src="http://venturesity-beta.s3.amazonaws.com/company_assets/dbf3c57dfda682fceadad5e7cbd65bf3.png" alt=" Logo">
+								</a>
+							</div>
+							<div class="col-md-9">
+								<p>
+									Venturesity is a peer learning and challenge platform where companies can discover top talent through challenges. Our challenges are real world projects that would help candidates showcase their job skills to prospective employers and build credibility into their profiles. Our hiring partners range from established companies like Amazon, Dell and Oracle to startups like Olacabs, Housing and Stayzilla.
+								</p>
+							</div>
+						</div>					</div>
+				</div>
+<h1 style="margin-top:50px;" align="center"></h1>
+<div id="wrap">
+  <dl class="accordion">
+    <dt>Panel 1</dt>
+    <dd>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</dd>
+    <dt>Panel 2</dt>
+    <dd>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</dd>
+    <dt>Panel 3</dt>
+    <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</dd>
+    <dt>Panel 4</dt>
+    <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</dd>
+    <dt>Panel 5</dt>
+    <dd>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</dd>
+    <dt>Panel 6</dt>
+    <dd>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</dd>
+    <dt>Panel 7</dt>
+    <dd>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</dd>
+    <dt>Panel 8</dt>
+    <dd>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</dd>
+  </dl>
+</div>
+<div class="frequently">
+
+<h1>FAQ</h1>
+
+<p>Under the FAQ section, you will find answers to the most commonly asked questions about our challenges. If you have any questions apart from the ones listed on the right, contact us at help@venturesity.com
+
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script>
+(function($) {
+  var allPanels = $('.accordion > dd').hide();
+  $('.accordion > dd:first-of-type').show();
+    $('.accordion > dt:first-of-type').addClass('accordion-active');
+  jQuery('.accordion > dt').on('click', function() {
+      $this = $(this);
+      $target = $this.next(); 
+      if(!$this.hasClass('accordion-active')){
+          $this.parent().children('dd').slideUp();
+          
+          jQuery('.accordion > dt').removeClass('accordion-active');
+          $this.addClass('accordion-active');
+          $target.addClass('active').slideDown();
+ 
+      }    
+    
+    return false;
+  });
+ 
+})(jQuery);
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

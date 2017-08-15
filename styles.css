@@ -252,3 +252,110 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 70px;
 }
+*,
+*:after,
+*:before {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+body {
+ background: #f1f2f3;
+ width: 100%;
+ height: 100%;
+ font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+ list-style: none;
+}
+
+#wrap {
+  display: block;
+  float: right;
+  margin-bottom: 0;
+  margin-right: 90px;
+  margin-top: 0;
+  max-width: 960px;
+  width: 55%;
+}
+
+/*--------------Accordion Styles------------------*/
+ 
+
+.accordion {
+ margin: 0 0 30px;
+ border-top: 1px solid #DDD;
+ border-radius: 4px;
+}
+
+.accordion dt {
+ border-bottom: 3px solid #f1f2f3;
+ background:#E16D0F;
+ color: #FFF;
+}
+
+.accordion dd {
+ display: none;
+ padding: 20px;
+ width: 100%;
+ margin-left: 0;
+ border-bottom: 1px solid #DDD;
+ background: #FFF;
+}
+
+.accordion dt {
+ cursor: pointer;
+ padding: 8px 15px;
+ margin: 0;
+}
+
+.accordion dt:before {
+ content: "\25B6";
+ padding-right: 5px;
+ transition: all .3s linear;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+
+.accordion dt:hover:before {
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ transform: rotate(90deg);
+}
+
+.accordion dt.accordion-active:before {
+ content: "\25B6";
+ padding-right: 5px;
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+}
+
+.accordion dt.accordion-active:hover {
+ cursor: default;
+}
+.frequently {
+  margin-left: 100px;
+  width: 500px;
+}
+.box_style_1 {
+  background-color: #ffffff;
+  border: 5px solid #fbfbfc;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #e0e5e9 inset;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  padding: 15px 25px 5px;
+}
+.box_style_1 h4 {
+  border-bottom: 1px solid #eaeff3;
+  padding-bottom: 10px;
+}
+.box_style_1.clearfix {
+  margin-left: 62px;
+  margin-top: 25px;
+  width: 90%;
+}

@@ -25,10 +25,6 @@ a {
 .right.carousel-control > img {
   margin-top: 198px;
 }
-
-.we-do-section {
-  padding-bottom: 70px;
-}
 .white-bg {
   background-color: #ffffff;
 }
@@ -358,4 +354,202 @@ ul {
   margin-left: 62px;
   margin-top: 25px;
   width: 90%;
+}
+.sumome-share-client-wrapper.sumome-share-client-wrapper-left-page {
+  left: 0;
+  margin: 0;
+  position: fixed;
+  top: 40%;
+  width: 50px;
+  z-index: 10000000;
+}
+.sumome-share-client-wrapper {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  display: block;
+  position: static;
+}
+.sumome-share-client-wrapper {
+  background: #ffffff none repeat scroll 0 0;
+  color: #222222;
+  cursor: default;
+  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.sumome-share-client-wrapper .sumome-share-client-show {
+  height: 20px;
+  position: relative;
+}
+.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-sidebar-article .sumome-share-client-animated, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-page .sumome-share-client-animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: sumomeShareSlideInLeft;
+}
+.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-counts .sumome-share-client-count {
+  padding: 4px 10px 16px;
+}
+.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-page .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-right-page .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-desktop-bottom-bar .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-mobile-top-bar .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-mobile-bottom-bar .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-right-sidebar-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-sidebar-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-top-left-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-top-center-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-top-right-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-header-left-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-header-center-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-header-right-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-bottom-left-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-bottom-center-article .sumome-share-client-share, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-bottom-right-article .sumome-share-client-share {
+  display: inline-block;
+  height: 50px;
+}
+.sumome-share-client-wrapper div.sumome-share-client .sumome-share-client-share {
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0;
+  font-weight: bold;
+  height: 50px;
+  line-height: 0;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 50px;
+}
+.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-sidebar-article .sumome-share-client-animated img, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-page .sumome-share-client-animated img {
+  transform: translate3d(0px, 0px, 0px);
+}
+.sumome-share-client-wrapper div.sumome-share-client .sumome-share-client-share img {
+  height: 30px;
+  max-width: 100%;
+  width: 30px;
+}
+.sumome-share-client-wrapper *, .sumome-share-client-wrapper *::before, .sumome-share-client-wrapper *::after {
+  background: initial;
+  box-sizing: border-box;
+}
+.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-sidebar-article .sumome-share-client-animated, .sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-page .sumome-share-client-animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: sumomeShareSlideInLeft;
+}
+.sumome-share-client-show {
+  display: none;
+}
+.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-counts .sumome-share-client-count span {
+  bottom: 4px;
+  color: inherit;
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+  left: 0;
+  line-height: 13px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+footer {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 270px;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+#nav-footer h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#nav-footer ul li a {
+  color: #c6c6c7;
+}
+#nav-footer ul {
+  list-style: outside none none;
+}
+.col-md-4.col-sm-4 > ul {
+  margin-left: -39px;
+}
+#copy_right {
+  background-color: #202020;
+  color: #555555;
+  padding: 10px;
+}
+#copy_right {
+  color: #fff;
+}
+#follow_us > li {
+  padding: 10px;
+}
+#follow_us {
+  display: inline-flex;
+}
+.col-md-4.col-sm-4 li {
+  list-style-type: none;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 552px;
+  margin-top: -47px;
+}
+@media (min-width:320px) and (max-width:480px){
+	
+.dark-wrapper {
+  display: none;
+}
+	
+	
+	
+}
+@media (min-width:900px) and (max-width:1400px){
+	
+	
+.full-section.features-section.fancy-shadow {
+  display:none;
+}	
+	
+	
+}
+h3.section-title {
+  font-size: 18px;
+}
+.full-section {
+  padding: 33px 0 50px;
+}
+.features-section {
+  background: #f5f5f5 none repeat scroll 0 0;
+  text-align: center;
+}
+.fancy-shadow {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+h3.section-title {
+  color: #fe9d68;
+  font-size: 25px;
+  line-height: 50px;
+}
+h2.slide-title, h3.section-title, h3.course-title, h3.post-title, h4.cat-title, h4.accordion-header, h5.feature-title, h6.head-title, h4.title, h6.widget-title, .site-name {
+  font-family: "Lato",Arial,sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.full-section .section-description {
+  color: #353a48;
+  margin: auto;
+  max-width: 770px;
+  text-align: center;
+}
+.full-section .section-content [class^="col-xs-"], .full-section .section-content [class*="col-xs-"], .instructors-page [class^="col-"], .instructors-page [class*="col-"] {
+  width: 100%;
+}
+.feature-box {
+  margin-top: 15px;
+}
+.features-section .feature-box:hover .icon img {
+  transform: translateY(-7px);
+}
+.features-section .feature-title {
+  margin: 10px 0 -2px;
 }

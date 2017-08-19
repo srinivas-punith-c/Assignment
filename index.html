@@ -24,14 +24,19 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#"><img src="logo.png"></a>
     </div>
-        <button class="btn btn-danger navbar-btn" style="float:right;">Button</button>
-
-    <ul class="nav navbar-nav" style="float:right;">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span><i class="fa fa-bars fa-2x"></i></span>
+					     </button>
+  <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav " style="float:right;">
       <li class="active"><a href="#">Challenges</a></li>
       <li><a href="#">Blog</a></li>
       <li><a href="#">Sign In</a></li>
+      <li>
+<a id="apply" class="button_top " href="/signup/" style="font-size: 12px;margin-top:0px;color: #eee; height:100%; border-radius:0px;">Sign Up</a>
+</li>
     </ul>
   </div>
 </nav>
@@ -45,35 +50,35 @@
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="item active"> <img src="images/banner1.jpg" width="100%">
+    <div class="item active"> <img src="banner1.jpg" width="100%">
     <div class="container">
         <div class="carousel-caption">
-          <h1>Slide 1</h1>
-          <p>Aenean a rutrum nulla. Vestibulum a arcu at nisi tristique pretium.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          <h1>Data Science challenge</h1>
+           <h2>August 30th, 2017</h2>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Register</a></p>
         </div>
       </div>
     </div>
-    <div class="item"> <img src="images/banner1.jpg" width="100%">
+    <div class="item"> <img src="banner2.jpg" width="100%">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Slide 2</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae egestas purus. </p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          <h1>Data Science challenge</h1>
+           <h2>August 30th, 2017</h2>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Register</a></p>
         </div>
       </div>
     </div>
-    <div class="item"> <img src="images/banner1.jpg" width="100%">
-      <div class="container">
+    <div class="item"> <img src="banner3.png" width="100%">
+<div class="container">
         <div class="carousel-caption">
-          <h1>Slide 3</h1>
-          <p>Donec sit amet mi imperdiet mauris viverra accumsan ut at libero.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          <h1>Data Science challenge</h1>
+           <h2>August 30th, 2017</h2>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Register</a></p>
         </div>
       </div>
     </div>
   </div>
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="images/left-arrow.png" width="50" height="50"></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="images/right-arrow.png" width="50" height="50"></a> </div>
+  </div>
 <div class="divider_top"></div>
 <section id="we-do">
 		<div class="white-bg we-do-section">
@@ -248,27 +253,27 @@ There are 10 major tracks from which to choose. Of course you could mix &lsquo;n
          <div class="line3"></div>
          <div class="line4"></div>
          <div class="step workflow_item">
-          <div> <span><img src="images/card.png"></span> </div>
+          <div> <span><img src="card.png"></span> </div>
           <h5 class="upper">Apply</h5>
           <p>Click on the apply button, fill in your details.</p>
         </div>
         <div class="step even workflow_item">
-          <div> <span><img src="images/card.png"></span> </div>
+          <div> <span><img src="phone1.png"></span> </div>
           <h5 class="upper">Attend</h5>
           <p>Keep your schedule free on the day of the hackathon.</p>
         </div>
         <div class="step workflow_item">
-          <div> <span><img src="images/card.png"></span> </div>
+          <div> <span><img src="code.png"></span> </div>
           <h5 class="upper">Code</h5>
           <p>Build beautiful seamless products (of course along with "lots of" good food)</p>
         </div>
         <div class="step even workflow_item">
-          <div> <span><img src="images/card.png"></span> </div>
+          <div> <span><img src="show.png"></span> </div>
           <h5 class="upper">Showtime</h5>
           <p>Once all coded up, show others what you've built</p>
         </div>
         <div class="step workflow_item">
-          <div> <span><img src="images/card.png"></span> </div>
+          <div> <span><img src="trophy.png"></span> </div>
           <h5 class="upper">Prize</h5>
           <p>Goodies from Venturesity</p>
         </div>
@@ -277,9 +282,10 @@ There are 10 major tracks from which to choose. Of course you could mix &lsquo;n
   </div> 
   <section class="full-section features-section fancy-shadow">
                 <div class="container">
-                    <h3 class="section-title">Welcome Dear Visitor in Coursaty</h3>
+                    <h3 class="section-title">How it works
+</h3>
                     <p class="section-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie.
+                        
                     </p><!-- End Section Description -->
                 </div>
                 <div class="section-content features-content fadeInDown-animation hide show animated fadeInDown">
@@ -288,36 +294,45 @@ There are 10 major tracks from which to choose. Of course you could mix &lsquo;n
                             <div class="col-md-3 col-xs-6">
                                 <div class="feature-box">
                                     <div class="icon"><img src="creditcard.png" width="90" height="90"></div><!-- End Icon -->
-                                    <h5 class="feature-title">Learn Anything Online</h5>
+                                    <h5 class="feature-title">Apply</h5>
                                     <p class="feature-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing.
+                                        Click on the apply button, fill in your details
                                     </p>
                                 </div><!-- End Features Box -->
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="feature-box">
                                     <div class="icon"><img src="phone.png" width="90" height="90"></div><!-- End Icon -->
-                                    <h5 class="feature-title">Talk to Our Instructors</h5>
+                                    <h5 class="feature-title">Attend</h5>
                                     <p class="feature-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing.
+                                        Keep your schedule free on the day of the hackathon
                                     </p>
                                 </div><!-- End Features Box -->
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="feature-box">
                                     <div class="icon"><img src="coding.png" width="90" height="90"></div><!-- End Icon -->
-                                    <h5 class="feature-title">Communicate with Others</h5>
+                                    <h5 class="feature-title">Code</h5>
                                     <p class="feature-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing.
+                                        Build beautiful seamless products (of course along with "lots of" good food)
                                     </p>
                                 </div><!-- End Features Box -->
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="feature-box">
                                     <div class="icon"><img src="mac.png" width="90" height="90"></div><!-- End Icon -->
-                                    <h5 class="feature-title">Check for Centers</h5>
+                                    <h5 class="feature-title">Showtime</h5>
                                     <p class="feature-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing.
+                                        Once all coded up, show others what you've built
+                                    </p>
+                                </div><!-- End Features Box -->
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="feature-box">
+                                    <div class="icon"><img src="prize.png" width="90" height="90"></div><!-- End Icon -->
+                                    <h5 class="feature-title">Prize</h5>
+                                    <p class="feature-description">
+                                         Goodies from Venturesity
                                     </p>
                                 </div><!-- End Features Box -->
                             </div>
@@ -330,8 +345,7 @@ There are 10 major tracks from which to choose. Of course you could mix &lsquo;n
 						<h4>Organizer(s) <i class="icon-building pull-right hidden-xs"></i></h4>						<div class="row">
 							<div class="col-md-3">
 								<a href="/company/profile/Banyan Hack/">
-									<img style="max-height:80px; max-width: 200px;" class="pull-left hack" src="http://venturesity-beta.s3.amazonaws.com/company_assets/dbf3c57dfda682fceadad5e7cbd65bf3.png" alt=" Logo">
-								</a>
+								<img src="organizer.png"> </a>
 							</div>
 							<div class="col-md-9">
 								<p>
@@ -370,7 +384,7 @@ There are 10 major tracks from which to choose. Of course you could mix &lsquo;n
 
 
 </div>
-<div class="sumome-share-client-wrapper sumome-share-client-wrapper-left-page sumome-share-client-counts sumome-share-client-light sumome-share-client-medium" style="top: 101px;"><div class="sumome-share-client-show"><span></span></div><div data-sumome-share-pos="lp" class="sumome-share-client sumome-share-client-left-page sumome-share-client-counts sumome-share-client-light sumome-share-client-medium"><div class="sumome-share-client-animated sumome-share-client-share sumome-share-client-share-share sumome-share-client-count" data-sumome-share="share" style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: black;"><span style="bottom: auto; top: 11.5px;"><strong>1</strong><br>Shares</span></div><a title="Facebook" class="sumome-share-client-animated sumome-share-client-share sumome-share-client-count" data-sumome-share="facebook" href="javascript:void(0);" style="background: rgb(59, 89, 152) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"><img src="images/facebook-white-60.png" width="60" height="60"><span>1</span></a><a title="Twitter" class="sumome-share-client-animated sumome-share-client-share" data-sumome-share="twitter" href="javascript:void(0);" style="background: rgb(0, 172, 237) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"><img src="images/twitter-white-60.png" width="60" height="60"></a><a title="LinkedIn" class="sumome-share-client-animated sumome-share-client-share" data-sumome-share="linkedin" href="javascript:void(0);" style="background: rgb(0, 123, 182) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"><img src="images/linkedin-white-60.png" width="60" height="60"></a><a title="Google+" class="sumome-share-client-animated sumome-share-client-share" data-sumome-share="googleplus" href="javascript:void(0);" style="background: rgb(221, 75, 57) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"><img src="images/googleplus-white-60.png" width="60" height="60"></a></div><div class="sumome-share-client-hide" style="display: none;"><span></span></div></div>
+<div class="sumome-share-client-wrapper sumome-share-client-wrapper-left-page sumome-share-client-counts sumome-share-client-light sumome-share-client-medium" style="top: 101px;"><div class="sumome-share-client-show"><span></span></div><div data-sumome-share-pos="lp" class="sumome-share-client sumome-share-client-left-page sumome-share-client-counts sumome-share-client-light sumome-share-client-medium"><div class="sumome-share-client-animated sumome-share-client-share sumome-share-client-share-share sumome-share-client-count" data-sumome-share="share" style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: black;"><span style="bottom: auto; top: 11.5px;"><strong>1</strong><br>Shares</span></div><a title="Facebook" class="sumome-share-client-animated sumome-share-client-share sumome-share-client-count" data-sumome-share="facebook" href="javascript:void(0);" style="background: rgb(59, 89, 152) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"><img src="facebook-white-60.png" width="60" height="60"><span>1</span></a><a title="Twitter" class="sumome-share-client-animated sumome-share-client-share" data-sumome-share="twitter" href="javascript:void(0);" style="background: rgb(0, 172, 237) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"><img src="twitter-white-60.png" width="60" height="60"></a><a title="LinkedIn" class="sumome-share-client-animated sumome-share-client-share" data-sumome-share="linkedin" href="javascript:void(0);" style="background: rgb(0, 123, 182) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"><img src="linkedin-white-60.png" width="60" height="60"></a><a title="Google+" class="sumome-share-client-animated sumome-share-client-share" data-sumome-share="googleplus" href="javascript:void(0);" style="background: rgb(221, 75, 57) none repeat scroll 0% 0%; color: rgb(255, 255, 255);"><img src="googleplus-white-60.png" width="60" height="60"></a></div><div class="sumome-share-client-hide" style="display: none;"><span></span></div></div>
 
 <footer> 
 		<!--<div class="container">
@@ -410,13 +424,13 @@ There are 10 major tracks from which to choose. Of course you could mix &lsquo;n
 				<div class="col-md-4 col-sm-4">
 					<h4>We are social</h4>
 					<ul id="follow_us">
-						<li><a href="https://www.facebook.com/Venturesity"><img src="images/fb.png" width="60" height="60"></a>
+						<li><a href="https://www.facebook.com/Venturesity"><img src="fb.png" width="60" height="60"></a>
 						</li>
 						<li><a href="https://twitter.com/venturesity"><img src="twitter.png" width="60" height="60"></a>
 						</li>
-						<li><a href="https://plus.google.com/u/1/+Venturesity"><img src="images/google-plus-.png" width="60" height="60"></a>
+						<li><a href="https://plus.google.com/u/1/+Venturesity"><img src="google-plus-.png" width="60" height="60"></a>
 						</li>
-						<li><a href="http://www.linkedin.com/company/venturesity"><img src="images/linkedin.png" width="60" height="60"></a>
+						<li><a href="http://www.linkedin.com/company/venturesity"><img src="linkedin.png" width="60" height="60"></a>
 						</li>
 						<li><a href="https://www.youtube.com/venturesity"><i class=" icon-youtube"></i></a>
 						</li>
